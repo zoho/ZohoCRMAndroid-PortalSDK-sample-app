@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">ZCRM-ExternalSDK-SampleApp</string>
+
+    <string name="redir_url">localzcrmsdk://</string>
+    <string name="url_scheme">localzcrmsdk</string>
+    <string name="accounts_url">https://accounts.localzoho.com</string>
+
+
+</resources>
