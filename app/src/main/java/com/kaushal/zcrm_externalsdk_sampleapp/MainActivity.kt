@@ -24,16 +24,16 @@ class MainActivity : AppCompatActivity()
         setContentView(R.layout.activity_main)
     
         login.setOnClickListener {
-            
+
             val configs = ZCRMSDKConfigs.getBuilder(
-                "1000.A1YPEEWKA7S3093496WZQOGJSANRZG",
-                "a8b388eff7a0704ef082092b71517978d87c24de36",
-                "ZohoCRM.settings.ALL,ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL")
+                "1001757695.ZY4GS26CW7V170488NCSB87GAVL5NH",
+                "b8b86d3912f680e820b4c54f9668fe854c4e4a1cf4",
+                "ZohoCRM.modules.ALL,ZohoCRM.settings.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL",
+                "1001757695", "testportal55")
                 .setApiBaseURL("https://crm.localzoho.com")
-                .setAppType(CommonUtil.AppType.ZCRM)
+                .setAppType(CommonUtil.AppType.ZCRMCP)
                 .setHttpRequestMode(CommonUtil.HttpRequestMode.ASYNC)
-                .setLoggingPreferences(Level.ALL, true)
-                .build()
+                .setLoggingPreferences(Level.ALL, true).build()
             
     
             var zcrmsdkClient = ZCRMSDKClient.getInstance(applicationContext)

@@ -2,9 +2,9 @@
 
     <string name="app_name">ZCRM-ExternalSDK-SampleApp</string>
 
-    <string name="redir_url">localzcrmsdk://</string>
-    <string name="url_scheme">localzcrmsdk</string>
-    <string name="accounts_url">https://accounts.localzoho.com</string>
+    <string name="iam_portal_url">https://accounts.localzohoportal.com</string>
+    <string name="redir_url">zcrmcp://</string>
+    <string name="url_scheme">zcrmcp</string>
 
 
 </resources>
